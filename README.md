@@ -1,5 +1,5 @@
 # Godot-Method-Binding-State-Machine
-*A Godot StateMachine that uses method names, and matches them to states.*
+## A Godot StateMachine that uses method names, and matches them to states.
 
 The popular Node based finite state machine method created lots of project clutter ( and State overhead do to inheriting Node ). And using match statements in singular scripts was just messy.
 Thus I set out to find an intuitive method of State handling and came upon this.
