@@ -44,7 +44,7 @@ func _idle_enter():
   animation_player.play("idle")
 
 
-func _idle_update(): 
+func _idle_update(delta: float): 
   if player.velocity.length() > 0:
     set_state(States.Walk)
 
